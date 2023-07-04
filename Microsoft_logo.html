@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft_Logo</title>
+    <style>
+         *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+body{background-color:   rgb(97, 106, 119);}
+/* Container  */
+.container{display: grid;
+    grid-template-columns: repeat(2,160px);
+    grid-template-rows: repeat(2,150px);
+    grid-gap: 12px;
+    justify-content: center;
+    position: absolute; left: 400px;
+    height: 100vh;
+    align-content: center;
+    background-color: rgb(97, 106, 119);
+    transition: all 3s 2s ease-in-out;
+
+}
+
+#red:hover{transform: scale(1.1); border-radius: 5px;}
+#green:hover{transform: scale(1.1); border-radius: 5px;}
+#blue:hover{transform: scale(1.1); border-radius: 5px;}
+#gold:hover{transform: scale(1.1); border-radius: 5px;}
+
+#red{background-color:rgb(231, 78, 40);}
+#green{background-color:rgb(38, 236, 38);}
+#blue{background-color:rgb(52, 89, 250);}
+#gold{background-color: rgb(255, 255, 0);}
+
+.Microsoft{color: white; position: absolute; left: 400px; top: 45%;font-size: 60px; text-shadow: 2px 3px 4px ; }  
+
+    </style>
+</head>
+<body>
+    <!-- micrisoft_logo -->
+
+<div class="container">
+    <div id="red"></div>
+    <div id="green"></div>
+    <div id="blue"></div>
+    <div id="gold"></div> 
+    <div class="Microsoft">Microsoft</div>
+    </div>
+    
+</body>
+</html>
